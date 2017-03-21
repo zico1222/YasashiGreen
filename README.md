@@ -4,9 +4,9 @@ A soft theme for LaTeX Beamer class powered by Irasutoya and Fontna.
 The theme uses some illustrations provided by [Irasutoya](http://www.irasutoya.com "Irasutoya") for items in itemize environment, and some japanese fonts by [Fontna](www.irasutoya.com "Fontna").
 
 ## Sample pages
-![sample page 1](wiki/images/sample-0.png)
-![sample page 2](wiki/images/sample-1.png)
-![sample page 3](wiki/images/sample-2.png)
+![sample page 1](https://github.com/zico1222/YasashiGreen/wiki/images/sample-0.png)
+![sample page 2](https://github.com/zico1222/YasashiGreen/wiki/images/sample-1.png)
+![sample page 3](https://github.com/zico1222/YasashiGreen/wiki/images/sample-2.png)
 
 ## Depends
  - pLaTeX/upLaTeX
