@@ -15,7 +15,7 @@ The theme uses some illustrations provided by [Irasutoya](http://www.irasutoya.c
  - [いろいろな葉っぱのマーク](http://www.irasutoya.com/2016/11/blog-post_195.html)
 
 ## Install
-Execute install.sh as root user: `sudo install.sh`
+Just execute `install.sh` as root user: `sudo install.sh`
 
 The script downloads some images from [Irasutoya](http://www.irasutoya.com/2016/11/blog-post_195.html "いろいろな葉っぱのマーク") online.
 
