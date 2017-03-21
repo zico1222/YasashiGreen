@@ -7,6 +7,7 @@ curl 'http://2.bp.blogspot.com/-kZ-J5nwcQUE/WBsA2yPaCyI/AAAAAAAA_W4/ikOK5Wx3HOIM
 
 # Sets paths where to copy the files
 TEXMF=$(kpsewhich -var-value TEXMFLOCAL)
+TEXMF=${TEXMF%%:*}
 PATH_FONTNA=$TEXMF/fonts/truetype/public/fontna/
 PATH_THEMES=$TEXMF/tex/latex/beamer/themes/
 PATH_IRASUTOYA=$TEXMF/tex/latex/beamer/art/irasutoya
