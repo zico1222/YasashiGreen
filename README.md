@@ -23,7 +23,7 @@ The script downloads some images from [Irasutoya](http://www.irasutoya.com/2016/
 - simple_leaf3.png as `images/simple-leaf3.png`
 - simple_leaf2.png as `images/simple-leaf2.png`
 
-If it fails, then you shall download, rename and put in `images` directory by yourself. Comment out the executions of cURL command and re-run the script.
+If it fails, then you shall download, rename and put them in `images` directory by yourself. Comment out the executions of cURL command and re-run the script.
 
 ## Usage
 Specify beamer theme as `YasashiGreen` in your preamble:
