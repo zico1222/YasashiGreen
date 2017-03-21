@@ -1,0 +1,53 @@
+\documentclass[dvipdfmx,14pt,hyperref={hidelinks},t]{beamer}
+
+\usepackage{pxjahyper}
+\usetheme{YasashiGreen}
+
+\title{title タイトル}
+\author{author 発表者}
+\institute{institute 所属}
+\subtitle{subtitle サブタイトル}
+\date{date 日付}
+
+\begin{document}
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\begin{frame}
+  \frametitle{frametitle フレームタイトル}
+  frame body フレームの本文123
+  \begin{itemize}
+  \item itemize body アイテムの本文 itemize body アイテムの本文 itemize body アイテムの本文
+    \begin{itemize}
+    \item itemize body アイテムの本文 itemize body アイテムの本文 itemize body アイテムの本文
+      \begin{itemize}
+      \item  itemize body アイテムの本文
+      \end{itemize}
+    \end{itemize}
+  \end{itemize}
+  \begin{description}
+  \item[description label ラベル] description body 本文 description body 本文 description body 本文
+    \begin{description}
+    \item[description label ラベル] description body 本文 description body 本文 description body 本文
+    \end{description}
+  \end{description}
+\end{frame}
+
+\begin{frame}[fragile]
+  \frametitle{frametitle フレームタイトル}
+  math mode 数式:
+  \[
+    \lim_{n\to\infty}\sum_{i=0}^{n} \left(\frac{3}{i^2}\right)^i
+  \]
+  \begin{block}{block title ブロックのタイトル}
+    block body ブロックの本文
+  \end{block}
+  \begin{exampleblock}{exampleblock title ブロックのタイトル}
+    exampleblock body ブロックの本文
+  \end{exampleblock}
+  \begin{alertblock}{alertblock title ブロックのタイトル}
+    alertblock body ブロックの本文
+  \end{alertblock}
+\end{frame}
+\end{document}
