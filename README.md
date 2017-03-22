@@ -14,7 +14,7 @@ The theme uses some illustrations provided by [Irasutoya](http://www.irasutoya.c
  - PXchfon package (to specify fonts in the style file)
  - [いろいろな葉っぱのマーク](http://www.irasutoya.com/2016/11/blog-post_195.html)
 
-## Install
+## Installation for UNIX system
 Just execute `install.sh` as root user: `sudo install.sh`
 
 The script downloads some images from [Irasutoya](http://www.irasutoya.com/2016/11/blog-post_195.html "いろいろな葉っぱのマーク") online.
@@ -23,7 +23,12 @@ The script downloads some images from [Irasutoya](http://www.irasutoya.com/2016/
 - simple_leaf3.png as `images/simple-leaf3.png`
 - simple_leaf2.png as `images/simple-leaf2.png`
 
-If it fails, then you shall download, rename and put them in `images` directory by yourself. Comment out the executions of cURL command and re-run the script.
+## Manual Installation
+1. Download and rename the image files above.
+2. Put following files in your paths in LaTeX:
+   - `images/*`
+   - `fonts/*.ttf`
+   - `theme/*`
 
 ## Usage
 Specify beamer theme as `YasashiGreen` in your preamble:
