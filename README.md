@@ -1,7 +1,7 @@
 # YasashiGreen
 A soft theme for LaTeX Beamer class powered by Irasutoya and Fontna.
 
-The theme uses some illustrations provided by [Irasutoya](http://www.irasutoya.com "Irasutoya") for items in itemize environment, and some japanese fonts by [Fontna](www.irasutoya.com "Fontna").
+The theme uses some illustrations provided by [Irasutoya](http://www.irasutoya.com "Irasutoya") for items in itemize environment, and some japanese fonts by [Fontna](http://www.fontna.com/ "Fontna").
 
 ## Sample pages
 ![sample page 1](https://github.com/zico1222/YasashiGreen/wiki/images/sample-0.png)
